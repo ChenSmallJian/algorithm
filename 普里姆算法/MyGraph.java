@@ -71,6 +71,6 @@ public class MyGraph {
 			nodes.add(ge.getRightNode());
 			ge.getRightNode().setVisited(true);
 		}
-		prim2(nodes, size);
+		prim(nodes, size);
 	}
 }
